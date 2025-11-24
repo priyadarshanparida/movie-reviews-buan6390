@@ -1,0 +1,26 @@
+{
+    "OpenAI-Credential-17": {
+        "label": "OpenAI_API_Step4",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": ""
+        },
+        "password": {
+            "type": "string",
+            "default": "*************"
+        }
+    },
+    "OpenAI-Credential-1": {
+        "label": "OpenAI_API_Step4",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": ""
+        },
+        "password": {
+            "type": "string",
+            "default": "*************"
+        }
+    }
+}

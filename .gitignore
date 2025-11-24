@@ -1,0 +1,31 @@
+data/in/
+data/out/
+.DS_Store
+
+# --- KNIME Specific ---
+
+# 1. Temporary & Lock Files (Must Ignore)
+# Prevents commit conflicts when multiple people have the workflow open
+# .knimeLock
+# .savedWithData
+
+# 2. Data & Intermediate Results (Crucial to Ignore)
+# These folders contain the actual data cached in your nodes.
+# Excluding them keeps your repo light and focused only on "logic".
+# port_*/
+# internal/
+# internalTables/
+# data/
+# temp/
+
+# 3. Workspace Metadata (Optional but Recommended)
+# Eclipse/KNIME project settings that may conflict between users
+# .project
+# .classpath
+# .settings/
+# .metadata/
+
+# --- General / OS Specific ---
+*.zip
+*.tar
+*.gz

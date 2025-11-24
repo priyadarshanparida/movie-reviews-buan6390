@@ -1,0 +1,50 @@
+{
+    "OpenAI-Credential-17": {
+        "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeRepresentation",
+        "label": "OpenAI_API_Step4",
+        "description": "OpenAI key for Step 4 – Generative Sentiment Workflow",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "username": "",
+            "isSavePassword": true,
+            "magicDefaultPassword": "*************"
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "username": "",
+            "isSavePassword": true,
+            "magicDefaultPassword": "*************"
+        },
+        "promptUsername": false,
+        "usernameLabel": "User",
+        "passwordLabel": "Password",
+        "useServerLoginCredentials": false,
+        "errorMessage": "",
+        "noDisplay": false
+    },
+    "OpenAI-Credential-1": {
+        "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeRepresentation",
+        "label": "OpenAI_API_Step4",
+        "description": "OpenAI key for Step 4 – Generative Sentiment Workflow",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "username": "",
+            "isSavePassword": true,
+            "magicDefaultPassword": "*************"
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "username": "",
+            "isSavePassword": true,
+            "magicDefaultPassword": "*************"
+        },
+        "promptUsername": false,
+        "usernameLabel": "User",
+        "passwordLabel": "Password",
+        "useServerLoginCredentials": false,
+        "errorMessage": "",
+        "noDisplay": false
+    }
+}

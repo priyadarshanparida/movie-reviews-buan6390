@@ -1,0 +1,14 @@
+{
+    "OpenAI-Credential-23": {
+        "label": "OpenAI_API_Step4",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": ""
+        },
+        "password": {
+            "type": "string",
+            "default": "*************"
+        }
+    }
+}
