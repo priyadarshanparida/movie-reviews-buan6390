@@ -15,8 +15,8 @@
                 <config key="file_system_chooser__Internals">
                     <entry key="has_fs_port" type="xboolean" value="false"/>
                     <entry key="overwritten_by_variable" type="xboolean" value="false"/>
-                    <entry key="convenience_fs_category" type="xstring" value="LOCAL"/>
-                    <entry key="relative_to" type="xstring" value="knime.workflow.data"/>
+                    <entry key="convenience_fs_category" type="xstring" value="RELATIVE"/>
+                    <entry key="relative_to" type="xstring" value="knime.workflow"/>
                     <entry key="mountpoint" type="xstring" value="knime-temp-space"/>
                     <entry key="spaceId" type="xstring" value=""/>
                     <entry key="spaceName" type="xstring" value=""/>
@@ -25,15 +25,16 @@
                 </config>
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
-                    <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="/Users/priyadarshanparida/OneDrive - The University of Texas at Dallas/F'25/BUAN 6390.001 - Analytics Practicum - F25/knime-workspace/movie-reviews/data/step5A.csv"/>
+                    <entry key="file_system_type" type="xstring" value="RELATIVE"/>
+                    <entry key="file_system_specifier" type="xstring" value="knime.workflow"/>
+                    <entry key="path" type="xstring" value="../data/step5A.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
                     <entry key="EnabledStatus" type="xboolean" value="true"/>
                 </config>
                 <entry key="create_missing_folders" type="xboolean" value="false"/>
-                <entry key="if_path_exists" type="xstring" value="fail"/>
+                <entry key="if_path_exists" type="xstring" value="overwrite"/>
             </config>
             <entry key="column_delimiter" type="xstring" value=","/>
             <entry key="row_delimiter" type="xstring" isnull="true" value=""/>
@@ -88,6 +89,6 @@
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="9756f54a-74c0-4940-a7ce-b46ba61ba9af"/>
+        <entry key="file_store_id" type="xstring" value="d81f840d-2d6b-4ba0-b55c-90e46aa272c5"/>
     </config>
 </config>

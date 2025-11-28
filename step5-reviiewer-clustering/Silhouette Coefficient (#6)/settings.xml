@@ -12,7 +12,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Overall Mean Silhouette Coefficient"/>
             <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="0.40002606720439143"/>
+            <entry key="value" type="xdouble" value="0.4000260672043913"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -184,6 +184,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="43a25198-1c5c-4873-b60c-f3e974975641"/>
+        <entry key="file_store_id" type="xstring" value="5e242cc7-ba97-44c4-9649-15686404fc7b"/>
     </config>
 </config>

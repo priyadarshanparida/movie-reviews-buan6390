@@ -15,8 +15,8 @@
                 <config key="file_system_chooser__Internals">
                     <entry key="has_fs_port" type="xboolean" value="false"/>
                     <entry key="overwritten_by_variable" type="xboolean" value="false"/>
-                    <entry key="convenience_fs_category" type="xstring" value="LOCAL"/>
-                    <entry key="relative_to" type="xstring" value="knime.workflow.data"/>
+                    <entry key="convenience_fs_category" type="xstring" value="RELATIVE"/>
+                    <entry key="relative_to" type="xstring" value="knime.workflow"/>
                     <entry key="mountpoint" type="xstring" value="knime-temp-space"/>
                     <entry key="spaceId" type="xstring" value=""/>
                     <entry key="spaceName" type="xstring" value=""/>
@@ -25,8 +25,9 @@
                 </config>
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
-                    <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="/Users/priyadarshanparida/OneDrive - The University of Texas at Dallas/F'25/BUAN 6390.001 - Analytics Practicum - F25/knime-workspace/movie-reviews/data/step1.csv"/>
+                    <entry key="file_system_type" type="xstring" value="RELATIVE"/>
+                    <entry key="file_system_specifier" type="xstring" value="knime.workflow"/>
+                    <entry key="path" type="xstring" value="../data/step1.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -70,7 +71,7 @@
         <config key="table_spec_config_Internals">
             <entry key="version" type="xstring" value="V4_4"/>
             <config key="individual_specs">
-                <config key="/Users/priyadarshanparida/OneDrive - The University of Texas at Dallas/F'25/BUAN 6390.001 - Analytics Practicum - F25/knime-workspace/movie-reviews/data/step1.csv">
+                <config key="../data/step1.csv">
                     <entry key="num_columns" type="xint" value="4"/>
                     <config key="0">
                         <entry key="name" type="xstring" value="URL"/>
@@ -218,7 +219,7 @@
                     <entry key="force_type" type="xboolean" value="false"/>
                 </config>
             </config>
-            <entry key="source_group_id" type="xstring" value="/Users/priyadarshanparida/OneDrive - The University of Texas at Dallas/F'25/BUAN 6390.001 - Analytics Practicum - F25/knime-workspace/movie-reviews/data/step1.csv"/>
+            <entry key="source_group_id" type="xstring" value="../data/step1.csv"/>
             <config key="config_id">
                 <config key="multi_table_read">
                     <config key="settings">
@@ -328,6 +329,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="e20a0389-3b16-43ab-ac38-f216dba8be2d"/>
+        <entry key="file_store_id" type="xstring" value="5870e6f6-accc-4023-b6be-3d1d0f5e3685"/>
     </config>
 </config>

@@ -9,7 +9,7 @@
         <config key="renamings">
             <config key="0">
                 <entry key="oldName" type="xstring" value="Wilson_Score"/>
-                <entry key="newName" type="xstring" value="Top 10 and Bottom 10 movies"/>
+                <entry key="newName" type="xstring" value="Top 10 and Bottom 10 Movies"/>
             </config>
         </config>
         <entry key="doNotAllowPaddedColumnName_Internals" type="xboolean" value="true"/>
@@ -42,6 +42,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ecfb5a38-b393-47bf-9e9a-fa393f39dd40"/>
+        <entry key="file_store_id" type="xstring" value="d6bf9217-5b05-44f5-bf0d-f58128850950"/>
     </config>
 </config>

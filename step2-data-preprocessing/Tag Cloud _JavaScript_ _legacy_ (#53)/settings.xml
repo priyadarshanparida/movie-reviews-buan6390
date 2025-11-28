@@ -8,7 +8,7 @@
     <config key="model">
         <entry key="hideInWizard" type="xboolean" value="false"/>
         <entry key="generateImage" type="xboolean" value="true"/>
-        <entry key="warningsInView" type="xboolean" value="true"/>
+        <entry key="warningsInView" type="xboolean" value="false"/>
         <entry key="reportMissingValues" type="xboolean" value="true"/>
         <entry key="resizeToWindow" type="xboolean" value="true"/>
         <entry key="imageWidth" type="xint" value="800"/>
@@ -78,7 +78,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
-            <entry key="port_object_summary" type="xstring" value="SVG 746 x 555"/>
+            <entry key="port_object_summary" type="xstring" value="SVG 702 x 532"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -103,6 +103,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="65a19a25-80fd-48ab-8a70-65f16c8738a4"/>
+        <entry key="file_store_id" type="xstring" value="e8ddf02b-3b1a-47b1-a095-644dd3159d21"/>
     </config>
 </config>

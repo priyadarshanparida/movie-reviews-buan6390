@@ -23,6 +23,7 @@ data/out/
 # KNIME workflow temp files
 **/.knimeLock
 **/temp/
+**/filestore/
 
 # Eclipse/KNIME project metadata
 .project
