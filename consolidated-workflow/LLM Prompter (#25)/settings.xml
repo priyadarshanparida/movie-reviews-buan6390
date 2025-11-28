@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="system_message_handling" type="xstring" value="SINGLE"/>
+        <entry key="system_message" type="xstring" value="You are a film-critic analyst. %%00010Read the review and decide what kind of movies the reviewer tends to enjoy.%%00010%%00010Classify the review into ONE of these six &quot;Reviewer Taste Segments&quot;:%%00010%%000101. &quot;Realism Seekers&quot; – prefer believable stories and authentic emotion.  %%000102. &quot;Plot Critics&quot; – judge films by story logic and writing quality.  %%000103. &quot;Melodrama Buffs&quot; – drawn to emotional or romantic stories.  %%000104. &quot;Entertainment Seekers&quot; – enjoy fun, fast-paced, or action-heavy films.  %%000105. &quot;Genre Loyalists&quot; – consistently favor or dislike specific genres.  %%000106. &quot;Other / Unclassifiable&quot; – no clear or consistent taste signal.%%00010%%00010Return JSON in this exact format:%%00010%%00010{%%00010  &quot;taste_label&quot;: &quot;&lt;one of the six segments above&gt;&quot;,%%00010  &quot;keywords&quot;: [&quot;&lt;1-3 words  that influenced your choice&gt;&quot;],%%00010  &quot;rationale&quot;: &quot;&lt;choose one basis only: tone | emotion | implicit meaning | structure | overall impression | keywords&gt;&quot;%%00010}%%00010%%00010Guidance:%%00010Choose the option that best reflects what influenced your decision most.  %%00010Use 'keywords' only when classification depends mainly on explicit words such as genre names or direct sentiment terms."/>
+        <entry key="system_message_column" type="xstring" isnull="true" value=""/>
+        <entry key="prompt_column" type="xstring" value="Text"/>
+        <entry key="response_column_name" type="xstring" value="Cluster_Response"/>
+        <entry key="missing_value_handling" type="xstring" value="OutputMissingValues"/>
+        <entry key="output_format" type="xstring" value="JSON"/>
+        <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
+        <entry key="extension_version_Internals" type="xstring" value="5.8.0"/>
+    </config>
+    <config key="variables"/>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Prompt"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory"/>
+    <entry key="node-name" type="xstring" value="LLM Prompter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME AI Extension"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python.llm"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.8.0.v202510071055"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME AI Extension"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.python.features.llm.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.8.0.v202510071055"/>
+    <entry key="factory-id-uniquifier" type="xstring" value="org.knime.python.llm_!_LLMPrompter"/>
+    <config key="factory_settings">
+        <entry key="extension_id" type="xstring" value="org.knime.python.llm"/>
+        <entry key="node_id" type="xstring" value="LLMPrompter"/>
+    </config>
+    <config key="node_creation_config">
+        <config key="Input LLM # 0"/>
+        <config key="Input Prompt Table # 1"/>
+        <config key="Output Result Table # 0"/>
+    </config>
+    <entry key="name" type="xstring" value="LLM Prompter"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 5"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="950c6b31-ee65-4e80-8366-5bc37fdfc6a9"/>
+    </config>
+</config>
