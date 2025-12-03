@@ -1,6 +1,7 @@
 # --- Data you don't want in Git ---
 data/in/
 data/out/
+research-context/
 
 # OS clutter
 .DS_Store
