@@ -16,7 +16,7 @@
                     <entry key="has_fs_port" type="xboolean" value="false"/>
                     <entry key="overwritten_by_variable" type="xboolean" value="false"/>
                     <entry key="convenience_fs_category" type="xstring" value="RELATIVE"/>
-                    <entry key="relative_to" type="xstring" value="knime.workflow"/>
+                    <entry key="relative_to" type="xstring" value="knime.workflow.data"/>
                     <entry key="mountpoint" type="xstring" value="knime-temp-space"/>
                     <entry key="spaceId" type="xstring" value=""/>
                     <entry key="spaceName" type="xstring" value=""/>
@@ -26,8 +26,8 @@
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="RELATIVE"/>
-                    <entry key="file_system_specifier" type="xstring" value="knime.workflow"/>
-                    <entry key="path" type="xstring" value="../data/Step1.csv"/>
+                    <entry key="file_system_specifier" type="xstring" value="knime.workflow.data"/>
+                    <entry key="path" type="xstring" value="Step1.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -71,7 +71,7 @@
         <config key="table_spec_config_Internals">
             <entry key="version" type="xstring" value="V4_4"/>
             <config key="individual_specs">
-                <config key="../data/Step1.csv">
+                <config key="Step1.csv">
                     <entry key="num_columns" type="xint" value="4"/>
                     <config key="0">
                         <entry key="name" type="xstring" value="URL"/>
@@ -219,7 +219,7 @@
                     <entry key="force_type" type="xboolean" value="false"/>
                 </config>
             </config>
-            <entry key="source_group_id" type="xstring" value="../data/Step1.csv"/>
+            <entry key="source_group_id" type="xstring" value="Step1.csv"/>
             <config key="config_id">
                 <config key="multi_table_read">
                     <config key="settings">
@@ -314,6 +314,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="149a56a2-6004-49e5-9cd7-097e56f4110c"/>
+        <entry key="file_store_id" type="xstring" value="14a85321-e001-4625-af02-29bb573e9d02"/>
     </config>
 </config>

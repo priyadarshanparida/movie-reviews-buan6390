@@ -16,7 +16,7 @@
                     <entry key="has_fs_port" type="xboolean" value="false"/>
                     <entry key="overwritten_by_variable" type="xboolean" value="false"/>
                     <entry key="convenience_fs_category" type="xstring" value="RELATIVE"/>
-                    <entry key="relative_to" type="xstring" value="knime.workflow"/>
+                    <entry key="relative_to" type="xstring" value="knime.workflow.data"/>
                     <entry key="mountpoint" type="xstring" value="knime-temp-space"/>
                     <entry key="spaceId" type="xstring" value=""/>
                     <entry key="spaceName" type="xstring" value=""/>
@@ -26,8 +26,8 @@
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="RELATIVE"/>
-                    <entry key="file_system_specifier" type="xstring" value="knime.workflow"/>
-                    <entry key="path" type="xstring" value="../data/metrics_logreg.csv"/>
+                    <entry key="file_system_specifier" type="xstring" value="knime.workflow.data"/>
+                    <entry key="path" type="xstring" value="metrics_logreg.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -89,6 +89,6 @@
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="6deee0c8-3095-4d7e-9a21-a8370f6b8a4d"/>
+        <entry key="file_store_id" type="xstring" value="16d0b545-ea98-46b5-972a-c8b907cf3e97"/>
     </config>
 </config>

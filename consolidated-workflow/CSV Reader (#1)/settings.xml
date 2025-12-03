@@ -16,7 +16,7 @@
                     <entry key="has_fs_port" type="xboolean" value="false"/>
                     <entry key="overwritten_by_variable" type="xboolean" value="false"/>
                     <entry key="convenience_fs_category" type="xstring" value="RELATIVE"/>
-                    <entry key="relative_to" type="xstring" value="knime.workflow"/>
+                    <entry key="relative_to" type="xstring" value="knime.workflow.data"/>
                     <entry key="mountpoint" type="xstring" value="knime-temp-space"/>
                     <entry key="spaceId" type="xstring" value=""/>
                     <entry key="spaceName" type="xstring" value=""/>
@@ -26,8 +26,8 @@
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="RELATIVE"/>
-                    <entry key="file_system_specifier" type="xstring" value="knime.workflow"/>
-                    <entry key="path" type="xstring" value="../data/imdb.csv"/>
+                    <entry key="file_system_specifier" type="xstring" value="knime.workflow.data"/>
+                    <entry key="path" type="xstring" value="imdb.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -71,7 +71,7 @@
         <config key="table_spec_config_Internals">
             <entry key="version" type="xstring" value="V4_4"/>
             <config key="individual_specs">
-                <config key="../data/imdb.csv">
+                <config key="imdb.csv">
                     <entry key="num_columns" type="xint" value="4"/>
                     <config key="0">
                         <entry key="name" type="xstring" value="Index"/>
@@ -219,7 +219,7 @@
                     <entry key="force_type" type="xboolean" value="false"/>
                 </config>
             </config>
-            <entry key="source_group_id" type="xstring" value="../data/imdb.csv"/>
+            <entry key="source_group_id" type="xstring" value="imdb.csv"/>
             <config key="config_id">
                 <config key="multi_table_read">
                     <config key="settings">
@@ -329,6 +329,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c73f0c91-50bf-49ba-8bca-f3bc9434bf8d"/>
+        <entry key="file_store_id" type="xstring" value="dcf51ddd-2e7b-4c91-9172-08b89b328ec5"/>
     </config>
 </config>

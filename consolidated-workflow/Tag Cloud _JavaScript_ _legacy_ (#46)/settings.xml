@@ -78,7 +78,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
-            <entry key="port_object_summary" type="xstring" value="SVG 730 x 537"/>
+            <entry key="port_object_summary" type="xstring" value="SVG 688 x 499"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -87,7 +87,7 @@
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 9482, Cols: 11"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 9483, Cols: 11"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
     </config>
@@ -103,6 +103,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d6ac2cd7-78f4-4465-808d-8b13852e97cb"/>
+        <entry key="file_store_id" type="xstring" value="aeef868a-45e2-42c8-b1aa-01068c90b00c"/>
     </config>
 </config>
