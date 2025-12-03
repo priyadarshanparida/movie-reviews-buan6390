@@ -6,14 +6,14 @@
         "required": true,
         "defaultValue": {
             "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
-            "isSavePassword": true,
             "username": "",
+            "isSavePassword": true,
             "magicDefaultPassword": "*************"
         },
         "currentValue": {
             "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
-            "isSavePassword": true,
             "username": "",
+            "isSavePassword": true,
             "magicDefaultPassword": "*************"
         },
         "promptUsername": false,
@@ -30,14 +30,14 @@
         "required": true,
         "defaultValue": {
             "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
-            "isSavePassword": true,
             "username": "",
+            "isSavePassword": true,
             "magicDefaultPassword": "*************"
         },
         "currentValue": {
             "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
-            "isSavePassword": true,
             "username": "",
+            "isSavePassword": true,
             "magicDefaultPassword": "*************"
         },
         "promptUsername": false,
@@ -54,14 +54,14 @@
         "required": true,
         "defaultValue": {
             "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
-            "isSavePassword": true,
             "username": "",
+            "isSavePassword": true,
             "magicDefaultPassword": "*************"
         },
         "currentValue": {
             "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
-            "isSavePassword": true,
             "username": "",
+            "isSavePassword": true,
             "magicDefaultPassword": "*************"
         },
         "promptUsername": false,

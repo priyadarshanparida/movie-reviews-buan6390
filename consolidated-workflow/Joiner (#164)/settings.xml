@@ -22168,6 +22168,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="be8d6df9-ea1d-474f-8f6c-8c05848a80f5"/>
+        <entry key="file_store_id" type="xstring" value="dc03fcf2-b36c-479b-8e65-9887906d7d0f"/>
     </config>
 </config>

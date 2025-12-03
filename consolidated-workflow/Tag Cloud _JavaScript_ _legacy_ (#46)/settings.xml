@@ -55,6 +55,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Only the first 250 tags are displayed."/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.js.base.node.viz.tagcloud.TagCloudViewNodeFactory"/>
     <entry key="node-name" type="xstring" value="Tag Cloud (JavaScript) (legacy)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Base Views"/>
@@ -74,7 +78,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
-            <entry key="port_object_summary" type="xstring" value="SVG 682 x 465"/>
+            <entry key="port_object_summary" type="xstring" value="SVG 730 x 537"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -83,7 +87,7 @@
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 23, Cols: 11"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 9482, Cols: 11"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
     </config>
@@ -99,6 +103,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="9b9eaa6a-1073-42d4-82cb-9df09d1f952d"/>
+        <entry key="file_store_id" type="xstring" value="d6ac2cd7-78f4-4465-808d-8b13852e97cb"/>
     </config>
 </config>

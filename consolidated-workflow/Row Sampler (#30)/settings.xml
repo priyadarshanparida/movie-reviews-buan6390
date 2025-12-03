@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="partitioningMode" type="xstring" value="ABSOLUTE"/>
+        <entry key="partitioningMode" type="xstring" value="RELATIVE"/>
         <entry key="percentage" type="xdouble" value="100.0"/>
         <entry key="rowCount" type="xlong" value="5"/>
         <entry key="mode" type="xstring" value="FIRST_ROWS"/>
@@ -52,12 +52,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 4"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 2000, Cols: 4"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c526f175-f819-42d5-8045-6b97d11df2f2"/>
+        <entry key="file_store_id" type="xstring" value="b18686ad-88de-45dd-875c-ec50f023423b"/>
     </config>
 </config>
